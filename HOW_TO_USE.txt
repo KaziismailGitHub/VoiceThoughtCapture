@@ -1,0 +1,35 @@
+VOICE THOUGHT CAPTURE — QUICK GUIDE
+
+START THE APP
+Double-click the Voice Thought Capture Desktop shortcut, or run start.bat from the project folder.
+The app stays in the notification area beside the Windows clock and may be under the overflow arrow.
+
+CAPTURE A THOUGHT
+Press Ctrl + Alt + N and speak after the Listening notification appears.
+Press Ctrl + Alt + N again to finish, or pause for the configured silence interval.
+A maximum recording duration also applies.
+
+WHERE NOTES ARE SAVED
+By default, notes are appended to Documents\VoiceThoughtCapture\THOUGHTS.md for the current Windows user.
+Earlier entries are preserved.
+
+STOP OR RESTART
+Right-click the tray icon and choose Stop application, or run stop.bat.
+Run restart.bat to restart the app and status.bat to check its state.
+
+CHANGE SETTINGS
+Stop the app, then edit config\settings.json inside the project folder and restart the app.
+The app creates this file with defaults on first launch. Use valid JSON syntax.
+The notes_file setting can point to a folder you already sync; the app does not configure sync.
+
+TROUBLESHOOTING
+- Microphone: check Windows microphone privacy settings and the selected input device.
+- Hotkey: check tray status; the app tries configured fallback hotkeys if the preferred key is busy.
+- Recognition: first launch downloads local speech models and needs about 1 GB of disk space.
+- Logs: see logs\voice_thought_capture.log in the project folder.
+- Recovery: after a failure, check data\recovery in the project folder for a saved audio or transcript file.
+
+PRIVACY
+Audio is captured only after you start a recording. Speech recognition runs locally after model download.
+The app does not upload captured audio or notes. Recovery files and logs may contain sensitive information;
+keep them private and do not add them to a public repository.

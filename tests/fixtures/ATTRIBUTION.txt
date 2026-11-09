@@ -1,0 +1,6 @@
+Audio and transcript test fixtures:
+- Google FLEURS, English (United States) test split
+- Google FLEURS, Bengali (India) test split
+Dataset page: https://huggingface.co/datasets/google/fleurs
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+The two WAV samples are the first WAV members from the respective test audio archives. The accompanying TSV files contain the associated reference transcripts.

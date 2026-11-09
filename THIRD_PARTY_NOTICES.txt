@@ -1,0 +1,20 @@
+Voice Thought Capture — third-party components
+
+faster-whisper 1.2.1
+- Source: https://github.com/SYSTRAN/faster-whisper
+- License: MIT
+
+Systran/faster-whisper-small
+- Source: https://huggingface.co/Systran/faster-whisper-small
+- Model card license: MIT
+- Used for English/general language detection and recognition.
+
+sha1779/Faster_BengaliRegionalASR
+- Source: https://huggingface.co/sha1779/Faster_BengaliRegionalASR
+- Model card license: Apache-2.0
+- Used for Bengali recognition when detected.
+
+Google FLEURS test audio and reference transcripts
+- Source: https://huggingface.co/datasets/google/fleurs
+- License: CC BY 4.0
+- Fixture details and attribution: tests/fixtures/ATTRIBUTION.txt

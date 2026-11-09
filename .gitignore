@@ -1,0 +1,70 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Packaging and generated builds
+/build/
+build/
+dist/
+/runtime/
+*.egg-info/
+
+# Runtime data, logs, and local models
+/data/
+/logs/
+models/
+cache/
+/cache/
+/status.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Captured thoughts and local recordings
+THOUGHTS.md
+thoughts.md
+**/THOUGHTS.md
+**/thoughts.md
+/captures/
+/recordings/
+/notes/
+/thoughts/
+
+# User-specific configuration and credentials
+/config/settings.json
+/config/settings.local.*
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/token.json
+**/*oauth*token*
+/secrets/
+*.pem
+*.key
+
+# Temporary and operating-system files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+
+# Local/generated documentation and personal test notes
+/README.html
+/tests/live_voice_capture*.md
